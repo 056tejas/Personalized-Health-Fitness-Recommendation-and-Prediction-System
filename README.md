@@ -4,6 +4,24 @@ A **Flask-based AI system** offering personalized health predictions and smart f
 
 ---
 
+> ⚠️ **Note on `prediction_utils` Folder**  
+> Due to GitHub’s file size and bandwidth limits, the `prediction_utils/` folder containing the trained model `.pkl` files and encoders could not be uploaded to this repository.  
+>  
+> To use the predictor features (Calories Burned Prediction, Macronutrient Distribution), you must first **generate the required pickle files locally** by running the notebook:  
+>  
+> **📄 File**: `Prediction_training.ipynb`  
+>  
+> This will create all necessary files inside a folder named `prediction_utils/`, including:
+> - `calories_burned_model.pkl`  
+> - `feature_columns.pkl`  
+> - Categorical encoders (`BMI_Category_encoder.pkl`, etc.)  
+> - `macros_model.pkl`  
+> - `macros_feature_columns.pkl`  
+>  
+> After generating the files, your Flask app will run without issues.
+
+---
+
 ## 🚀 Features
 
 ### 🔢 1. Calories Burned Prediction
