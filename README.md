@@ -107,5 +107,10 @@ A **Flask-based AI system** offering personalized health predictions and smart f
 
 ---
 
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Author:
 Tejas Jain
